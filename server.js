@@ -60,7 +60,7 @@ app.put("/api/workouts/:id", ({body, params}, res) => {
 app.post("/api/workouts", (req, res) => {
   db.Workout.create({ body })
   .then(data => {
-    console.log(data);
+    res.json(data);
   })
   .catch(({message}) => {
     console.log(message);
