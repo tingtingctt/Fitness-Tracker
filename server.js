@@ -58,7 +58,7 @@ app.put("/api/workouts/:id", ({body, params}, res) => {
 
 
 app.post("/api/workouts", (req, res) => {
-  db.Workout.create({ body })
+  db.Workout.create(req.body)
   .then(data => {
     res.json(data);
   })
