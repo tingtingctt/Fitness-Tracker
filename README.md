@@ -18,11 +18,6 @@ The user is able to:
   * View multiple the combined weight of multiple exercises on the `stats` page.
 
 
-## Full Stack Web Development
-
-This app follows MVC design pattern and integrates full-stack technology with MySQL, Node, Express, Handlebars, a homemade ORM (yum!), Javascript, CSS and HTML. 
-
-
 ## Local Instance
 
 To install dependencies, run command:
@@ -32,6 +27,6 @@ npm i
 ```
 
 
-## Nosql Database
+## Full Stack Web Development
 
 This application uses Mongo database with a Mongoose schema and handles routes with Express.
